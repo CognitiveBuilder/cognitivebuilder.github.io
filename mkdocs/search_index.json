@@ -187,7 +187,7 @@
         }, 
         {
             "location": "/howtos/submit-code/", 
-            "text": "We'll use GitHub\n\n\nEnsure your team is \nregistered\n!\n\n\n\n\n\n\nSet Up Git\n\n\n\n\n\n\nInitialize your team's repository by:\n\n\n\n\n\n\nCreating a new repository:\n\n\n  echo \"# \nREPOSITORY_NAME\n\" \n README.md\n  git init\n  git add README.md\n  git commit -m \"first commit\"\n  git remote add origin git@github.com:hacktheweather/\nREPOSITORY_NAME\n.git\n  git push -u origin master\n\n\n\n\n\n\n\nOr push an existing one:\n\n\n  git remote add origin git@github.com:hacktheweather/\nREPOSITORY_NAME\n.git\n  git push -u origin master\n\n\n\n\n\n\n\n\n\n\n\nDownload your team's notebooks from DSW (\n.ipynb\n) to your machine.\n  \n\n  \n\n  \n\n  \n\n\n\n\n\n\nCommit and push notebooks and sample data to GitHub.", 
+            "text": "We'll use GitHub\n\n\nEnsure your team is \nregistered\n!\n\n\n\n\n\n\nSet Up Git\n\n\n\n\n\n\nInitialize your team's repository by:\n\n\n\n\n\n\nCreating a new repository:\n\n\n  echo \"# \nREPOSITORY_NAME\n\" \n README.md\n  git init\n  git add README.md\n  git commit -m \"first commit\"\n  git remote add origin git@github.com/cognitivebuilder\nREPOSITORY_NAME\n.git\n  git push -u origin master\n\n\n\n\n\n\n\nOr push an existing one:\n\n\n  git remote add origin git@github.com/cognitivebuilder\nREPOSITORY_NAME\n.git\n  git push -u origin master\n\n\n\n\n\n\n\n\n\n\n\nDownload your team's notebooks from DSW (\n.ipynb\n) to your machine.\n  \n\n  \n\n  \n\n  \n\n\n\n\n\n\nCommit and push notebooks and sample data to GitHub.", 
             "title": "Submit your Code"
         }
     ]
