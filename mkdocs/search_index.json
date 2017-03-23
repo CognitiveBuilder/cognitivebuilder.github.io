@@ -111,22 +111,22 @@
             "title": "Jupyter"
         }, 
         {
-            "location": "/environment/dswb/", 
+            "location": "/environment/dsx/", 
             "text": "Overview\n\n\nData Science Experience aims to be your one-stop shop for\ndata science tools. At this time, it includes Jupyter notebooks and Zeppelin notebooks enabled with Spark integration, as well as R Studio IDE and OpenRefine. You can use notebooks to develop and run data science projects, as well visualize, document and present your analysis.\n\n\n\n\n\n\n\n\nFor more information, take the \nData Science Experience Tutorial\n on Big Data University.\n\n\nRequesting your own Data Science Experience\n\n\nGo to \nData Science Experience\n and click the big blue button. After completing the registration, you will receive an e-mail with instructions.\n\n\nHello World\n\n\nTo get a feel of how the Data Scientist Notebooks work with Scala and Spark, follow the steps below to load a \"Hello World\" notebook along with its sample data.\n\n\n\n\n\n\n\nGo to \nData Science Experience\n and click the \nMy Notebooks\n menu.\n\n\n\n\nUse the search bar to import the following file and notebook.\n    \n\n    \n\n    \n\n    \n\n\n\n\n\n\nNotebook:\n  \nhttps://share.knowledgeanyhow.org/#/api/v1/workbench/10.114.214.68/shares/sHbSUP0luy1xE2q/Scala%20and%20Spark%20in%2015%20minutes.ipynb\n\n\n\n\n\n\nData:\n\nhttps://share.knowledgeanyhow.org/#/api/v1/workbench/10.114.214.68/shares/t9LwxWg0EkWKMYX/2015.csv\n\n\n\n\n\n\n\n\n\n\nFollow the notebook!\n    \n\n    \n\n    \n\n    \n\n\n\n\n\n\nFor more details on sharing data and notebooks, check \nthis guide\n.", 
             "title": "Data Science Experience"
         }, 
         {
-            "location": "/environment/dswb/#overview", 
+            "location": "/environment/dsx/#overview", 
             "text": "Data Science Experience aims to be your one-stop shop for\ndata science tools. At this time, it includes Jupyter notebooks and Zeppelin notebooks enabled with Spark integration, as well as R Studio IDE and OpenRefine. You can use notebooks to develop and run data science projects, as well visualize, document and present your analysis.     For more information, take the  Data Science Experience Tutorial  on Big Data University.", 
             "title": "Overview"
         }, 
         {
-            "location": "/environment/dswb/#requesting-your-own-data-scientist-workbench", 
+            "location": "/environment/dsx/#requesting-your-own-data-scientist-workbench", 
             "text": "Go to  Data Science Experience  and click the big blue button. After completing the registration, you will receive an e-mail with instructions.", 
             "title": "Requesting your own Data Science Experience"
         }, 
         {
-            "location": "/environment/dswb/#hello-world", 
+            "location": "/environment/dsx/#hello-world", 
             "text": "To get a feel of how the Data Scientist Notebooks work with Scala and Spark, follow the steps below to load a \"Hello World\" notebook along with its sample data.    Go to  Data Science Experience  and click the  My Notebooks  menu.   Use the search bar to import the following file and notebook.\n     \n     \n     \n        Notebook:\n   https://share.knowledgeanyhow.org/#/api/v1/workbench/10.114.214.68/shares/sHbSUP0luy1xE2q/Scala%20and%20Spark%20in%2015%20minutes.ipynb    Data: https://share.knowledgeanyhow.org/#/api/v1/workbench/10.114.214.68/shares/t9LwxWg0EkWKMYX/2015.csv      Follow the notebook!\n     \n     \n     \n        For more details on sharing data and notebooks, check  this guide .", 
             "title": "Hello World"
         }, 
@@ -162,8 +162,8 @@
         }, 
         {
             "location": "/howtos/load-data-dsw/", 
-            "text": "To data into your Data Science Experience, all you have to do is:\n\n\n\n\nGo to \nData Science Experience\n and click the \nMy Notebooks\n menu.\n\n\nDrag the files you want to load from your computer and drop them on DSW.\n\n\n\n\nNote:\n There is no upload progress indication. If you're trying to upload a large file, it might take a few minutes for the upload to complete and the file show up in \"Recent Data\".", 
-            "title": "Load Data into DSW"
+            "text": "To data into your Data Science Experience, all you have to do is:\n\n\n\n\nGo to \nData Science Experience\n and click the \nMy Notebooks\n menu.\n\n\nDrag the files you want to load from your computer and drop them on DSX.\n\n\n\n\nNote:\n There is no upload progress indication. If you're trying to upload a large file, it might take a few minutes for the upload to complete and the file show up in \"Recent Data\".", 
+            "title": "Load Data into DSX"
         }, 
         {
             "location": "/howtos/install-libs/", 
@@ -187,7 +187,7 @@
         }, 
         {
             "location": "/howtos/submit-code/", 
-            "text": "We'll use GitHub\n\n\nEnsure your team is \nregistered\n!\n\n\n\n\n\n\nSet Up Git\n\n\n\n\n\n\nInitialize your team's repository by:\n\n\n\n\n\n\nCreating a new repository:\n\n\n  echo \"# \nREPOSITORY_NAME\n\" \n README.md\n  git init\n  git add README.md\n  git commit -m \"first commit\"\n  git remote add origin git@github.com/cognitivebuilder\nREPOSITORY_NAME\n.git\n  git push -u origin master\n\n\n\n\n\n\n\nOr push an existing one:\n\n\n  git remote add origin git@github.com/cognitivebuilder\nREPOSITORY_NAME\n.git\n  git push -u origin master\n\n\n\n\n\n\n\n\n\n\n\nDownload your team's notebooks from DSW (\n.ipynb\n) to your machine.\n  \n\n  \n\n  \n\n  \n\n\n\n\n\n\nCommit and push notebooks and sample data to GitHub.", 
+            "text": "We'll use GitHub\n\n\nEnsure your team is \nregistered\n!\n\n\n\n\n\n\nSet Up Git\n\n\n\n\n\n\nInitialize your team's repository by:\n\n\n\n\n\n\nCreating a new repository:\n\n\n  echo \"# \nREPOSITORY_NAME\n\" \n README.md\n  git init\n  git add README.md\n  git commit -m \"first commit\"\n  git remote add origin git@github.com/cognitivebuilder\nREPOSITORY_NAME\n.git\n  git push -u origin master\n\n\n\n\n\n\n\nOr push an existing one:\n\n\n  git remote add origin git@github.com/cognitivebuilder\nREPOSITORY_NAME\n.git\n  git push -u origin master\n\n\n\n\n\n\n\n\n\n\n\nDownload your team's notebooks from DSX (\n.ipynb\n) to your machine.\n  \n\n  \n\n  \n\n  \n\n\n\n\n\n\nCommit and push notebooks and sample data to GitHub.", 
             "title": "Submit your Code"
         }
     ]
