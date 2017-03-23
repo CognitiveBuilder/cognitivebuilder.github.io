@@ -161,7 +161,7 @@
             "title": "Importing Data and Notebooks"
         }, 
         {
-            "location": "/howtos/load-data-dsw/", 
+            "location": "/howtos/load-data-dsw/" class="deprecated_content", 
             "text": "To data into your Data Science Experience, all you have to do is:\n\n\n\n\nGo to \nData Science Experience\n and click the \nMy Notebooks\n menu.\n\n\nDrag the files you want to load from your computer and drop them on DSX.\n\n\n\n\nNote:\n There is no upload progress indication. If you're trying to upload a large file, it might take a few minutes for the upload to complete and the file show up in \"Recent Data\".", 
             "title": "Load Data into DSX"
         }, 
